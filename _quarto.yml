@@ -1,0 +1,43 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Práticas de Tecnologias Blockchain"
+  author: "Rogério Aparecido Gonçalves"
+  date: "09/10/2024"
+  search: true
+  repo-url: https://github.com/jjallaire/hopr/
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  sidebar:
+    style: docked
+    background: light
+  cover-image: cover.png
+  cover-image-alt: |
+    Alternative text describing the book cover 
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+
+  
+comments:
+  hypothesis: true
+
+bibliography: references.bib
+#csl: citestyle.csl
+
+highlight-style: pygments
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
