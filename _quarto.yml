@@ -22,9 +22,6 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
-
-
-  
 comments:
   hypothesis: true
 
@@ -35,7 +32,7 @@ highlight-style: pygments
 
 format:
   html:
-    theme: cosmo
+    theme: sketchy
   pdf:
     documentclass: scrreprt
 

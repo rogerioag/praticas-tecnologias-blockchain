@@ -5,3 +5,11 @@ This is a book created from markdown and executable code.
 See @knuth84 for additional discussion of literate programming.
 
 No Capítulo @sec-introduction apresentamos...
+
+library(tidyverse)
+library(palmerpenguins)
+penguins |>
+  mutate(
+    bill_ratio = bill_depth_mm / bill_length_mm,
+    bill_area  = bill_depth_mm * bill_length_mm
+  )
